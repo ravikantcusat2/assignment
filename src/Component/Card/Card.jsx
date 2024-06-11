@@ -6,49 +6,67 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 function Card({}) {
   const cardData = [
     {
-      header: "Collection",
+      header: "Coombes",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      subtext:"LOUNGE",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Bottle collection",
+      header: "Keeve Set",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      subtext:"TABLE & CHAIRS",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Card Collection",
+      header: "NILLE",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      subtext:"ARMCHAIR",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Pen Collection",
+      header: "Blanko",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+      subtext:"SIDE TABLE",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Regular Collection",
+      header: "MOMO",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg",
+      subtext:"SHELVES",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: " Collection",
+      header: " Penemille",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg",
+      subtext:"CHAIR",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Book Collection",
+      header: "Kappu",
       price: "$199.00",
       image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg",
+      subtext:"SHELVES",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "purse Collection",
+      header: " Penemille",
       price: "$199.00",
-      image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg",
+      image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg",
+      subtext:"CHAIR",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
     {
-      header: "Collection",
+      header: "Kappu",
       price: "$199.00",
-      image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      image: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg",
+      subtext:"SHELVES",
+      description:"Vass Shoes makes handcrafted men's shoes in the heart of Budapest. i made a concept product pagefor practice which in my opinion representstheir qualities better than their current site."
     },
   ];
   
@@ -73,7 +91,7 @@ function Card({}) {
        </div>
        <h3 class="-mt-8 p-2.5 z-13 absolute bg-white text-sm text-black-700">{card.header} </h3>
        <div className='flex justify-between'>
-       <p class=" text-sm font-normal text-gray-700 p-2.5">LOUNGE</p>
+       <p class=" text-sm font-normal text-gray-700 p-2.5">{card.subtext}</p>
        <p class="mt-1 text-lg font-medium text-gray-900">{card.price}</p>
        </div>
        

@@ -18,9 +18,9 @@ function CardDetails({}) {
       </div>
       <div className='p-8 -mt-48 aspect-h-4 aspect-w-3 bg-orange-200 items-center'>&rarr;</div>
       <div className='items-left flex w-1/2 flex-col -mt-48'>
-          <h3 class="text-orange-700 mb-2"> Kappu regular chair  </h3>
+          <h3 class="text-gray-700 mb-2"> Kappu regular chair  </h3>
           <h1 className='text-black-700 font-bold text-2xl mb-4'>{cardData.header}</h1>
-          <p class="text-base text-gray-900">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. setter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+          <p class="text-base text-gray-900">{cardData.description}</p>
 
           <div className='mt-8'>
             <label className='text-gray'>Color</label>
